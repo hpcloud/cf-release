@@ -19,9 +19,6 @@
 [submodule "src/uaa-release"]
 	path = src/uaa-release
 	url = https://github.com/cloudfoundry/uaa-release
-[submodule "src/capi-release"]
-	path = src/capi-release
-	url = https://github.com/cloudfoundry/capi-release
 [submodule "src/nats-release"]
 	path = src/nats-release
 	url = https://github.com/cloudfoundry/nats-release
@@ -61,3 +58,7 @@
 [submodule "src/dotnet-core-buildpack-release"]
 	path = src/dotnet-core-buildpack-release
 	url = https://github.com/cloudfoundry/dotnet-core-buildpack-release
+[submodule "src/capi-release"]
+	path = src/capi-release
+	url = https://github.com/ZhangWeiinHPE/capi-release.git
+	branch = change_ccng_url
